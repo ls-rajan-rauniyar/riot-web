@@ -47,7 +47,7 @@ if (argv['profile']) {
 
 let vectorConfig = {};
 try {
-    vectorConfig = require('../../webapp/config.json');
+    vectorConfig = require('../../webappx/config.json');
 } catch (e) {
     // it would be nice to check the error code here and bail if the config
     // is unparseable, but we get MODULE_NOT_FOUND in the case of a missing
